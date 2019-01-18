@@ -53,6 +53,15 @@ git push -u origin master
 เพิ่ม App name => creat app => add githup ใน repo ที่เราสร้างไว้ก่อนหน้า
 
 ```
+## ถ้าพัง ให้ทำการ install
+  ```json
+  ลบ node_module
+  
+  npm install @angular/cli@latest @angular/compiler-cli --save-dev
+  npm i express --save
+  npm i --save
+
+  ```
 
 ## package.json
 ```json
@@ -62,6 +71,7 @@ https://medium.com/m/signin
 https://medium.com/@hellotunmbi/how-to-deploy-angular-application-to-heroku-1d56e09c5147
 
 ```
+
 ``` json
 
 เพิ่ม
@@ -148,12 +158,4 @@ app.get('*', function(req,res) {
 });
 // Start the app by listening on the default Heroku port
 app.listen(process.env.PORT || 8080);
-  ```
-
-  ## ทำการ install
-  ```json
-  ลบ node_module
-  
-  npm i express --save
-  npm i --save
   ```
